@@ -18,6 +18,8 @@ learning$stim_left <- gsub(x = learning$stim_left,pattern = "images/",replacemen
 learning$stim_left <- gsub(x = learning$stim_left,pattern = ".jpg",replacement = "")
 learning$stim_right <- gsub(x = learning$stim_right,pattern = "images/",replacement = "")
 learning$stim_right <- gsub(x = learning$stim_right,pattern = ".jpg",replacement = "")
+learning$feedback<- gsub(x=learning$feedback,pattern = "\\[|\\]",replacement = "")
+learning$feedback<- gsub(x=learning$feedback,pattern = "'|'",replacement = "")
 learning$choice <- NA
 learning$reward <- NA
 for(n in 1:length(learning$trial)){
@@ -32,7 +34,7 @@ for(n in 1:length(learning$trial)){
     learning$reward[n] <- 0
   }
 }
-
+learning$reward
 learning$correct<- learning$key.corr
 rw.mod <- learning[,c("trial","choice","reward","correct","is_valid")]
 
