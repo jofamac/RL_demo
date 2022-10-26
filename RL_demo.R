@@ -26,7 +26,7 @@ for(n in 1:length(learning$trial)){
   }else{
     learning$choice[n] <- learning$stim_right[n]
   }
-  if(learning$reward[n]==learning$correct[n]){
+  if(learning$feedback[n]==learning$key.clicked_name[n]){
     learning$reward[n] <- 1
   }else{
     learning$reward[n] <- 0
