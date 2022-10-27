@@ -1,0 +1,128 @@
+0.6373 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+5.6193 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1, 1, 1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fa4fa5104e0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fa4f8630080>, multiSample=False, name='window1', numSamples=2, pos=[512.0, 320.0], screen=0, size=array([4096, 2560]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.6195 	EXP 	window1: mouseVisible = True
+5.6195 	EXP 	window1: recordFrameIntervals = False
+5.7873 	EXP 	window1: recordFrameIntervals = True
+6.1184 	EXP 	window1: recordFrameIntervals = False
+8.1289 	EXP 	Created textWelcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='textWelcome', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.1291 	EXP 	window1: mouseVisible = True
+8.1505 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.1579 	EXP 	Created pic_cue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='pic_cue', opacity=1, ori=0.0, pos=array([0. , 0.1]), size=array([0.39, 0.5 ]), texRes=128, units='height', win=Window(...))
+8.1624 	EXP 	Created pic_left = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='pic_left', opacity=1, ori=0.0, pos=array([-0.2, -0.3]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+8.1667 	EXP 	Created pic_right = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='pic_right', opacity=1, ori=0.0, pos=array([ 0.2, -0.3]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+8.1668 	EXP 	window1: mouseVisible = True
+8.1681 	EXP 	Created textFeedback = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textFeedback', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.1696 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.1863 	EXP 	Created textGoodbye = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='textGoodbye', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thank you for participating', units='height', win=Window(...), wrapWidth=1)
+8.1864 	EXP 	window1: mouseVisible = True
+8.2305 	EXP 	textWelcome: text = 'Welcome to the experiment\n\nCLICK to see the instructions'
+8.2305 	EXP 	textWelcome: autoDraw = True
+9.1865 	DATA 	Mouse: Left button down, pos=(625,1161)
+9.2032 	EXP 	Imported condition.xlsx as conditions, 20 conditions, 7 params
+9.2038 	EXP 	Created sequence: sequential, trialTypes=20, nReps=1, seed=None
+9.2041 	EXP 	New trial (rep=0, index=0): {'cue': 'images/m1.jpg', 'stim_left': 'images/round.jpg', 'stim_right': 'images/squared.jpg', 'feedback': ['pic_right'], 'correct': ['pic_right'], 'is_valid': 'valid', 'trial_all': 1}
+9.2100 	EXP 	textWelcome: autoDraw = False
+9.2100 	EXP 	text: autoDraw = True
+9.3376 	DATA 	Mouse:  Left button up, pos=(625,1161)
+9.7817 	EXP 	text: autoDraw = False
+9.7817 	EXP 	pic_cue: image = 'images/m1.jpg'
+9.7817 	EXP 	pic_left: image = 'images/round.jpg'
+9.7817 	EXP 	pic_right: image = 'images/squared.jpg'
+9.7817 	EXP 	pic_cue: autoDraw = True
+9.7817 	EXP 	pic_left: autoDraw = True
+9.7817 	EXP 	pic_right: autoDraw = True
+11.2527 	DATA 	Mouse: Left button down, pos=(806,292)
+11.2706 	EXP 	pic_cue: autoDraw = False
+11.2706 	EXP 	pic_left: autoDraw = False
+11.2706 	EXP 	pic_right: autoDraw = False
+11.2706 	EXP 	textFeedback: text = '-1'
+11.2706 	EXP 	textFeedback: autoDraw = True
+11.3373 	DATA 	Mouse:  Left button up, pos=(806,292)
+13.2693 	EXP 	New trial (rep=0, index=1): {'cue': 'images/m1.jpg', 'stim_left': 'images/squared.jpg', 'stim_right': 'images/round.jpg', 'feedback': ['pic_left'], 'correct': ['pic_left'], 'is_valid': 'valid', 'trial_all': 2}
+13.2852 	EXP 	textFeedback: autoDraw = False
+13.2852 	EXP 	text: autoDraw = True
+13.7967 	EXP 	text: autoDraw = False
+13.7967 	EXP 	pic_cue: image = 'images/m1.jpg'
+13.7967 	EXP 	pic_left: image = 'images/squared.jpg'
+13.7967 	EXP 	pic_right: image = 'images/round.jpg'
+13.7967 	EXP 	pic_cue: autoDraw = True
+13.7967 	EXP 	pic_left: autoDraw = True
+13.7967 	EXP 	pic_right: autoDraw = True
+15.8209 	DATA 	Mouse: Left button down, pos=(812,295)
+15.8516 	EXP 	pic_cue: autoDraw = False
+15.8516 	EXP 	pic_left: autoDraw = False
+15.8516 	EXP 	pic_right: autoDraw = False
+15.8516 	EXP 	textFeedback: text = '+1'
+15.8516 	EXP 	textFeedback: autoDraw = True
+15.9207 	DATA 	Mouse:  Left button up, pos=(812,295)
+17.8362 	EXP 	New trial (rep=0, index=2): {'cue': 'images/m1.jpg', 'stim_left': 'images/round.jpg', 'stim_right': 'images/squared.jpg', 'feedback': ['pic_right'], 'correct': ['pic_right'], 'is_valid': 'valid', 'trial_all': 3}
+17.8520 	EXP 	textFeedback: autoDraw = False
+17.8520 	EXP 	textFeedback: autoDraw = False
+17.8520 	EXP 	text: autoDraw = True
+18.3677 	EXP 	text: autoDraw = False
+18.3677 	EXP 	text: autoDraw = False
+18.3677 	EXP 	pic_cue: image = 'images/m1.jpg'
+18.3677 	EXP 	pic_left: image = 'images/round.jpg'
+18.3677 	EXP 	pic_right: image = 'images/squared.jpg'
+18.3677 	EXP 	pic_cue: autoDraw = True
+18.3677 	EXP 	pic_left: autoDraw = True
+18.3677 	EXP 	pic_right: autoDraw = True
+19.2689 	DATA 	Mouse: Left button down, pos=(815,292)
+19.2845 	EXP 	pic_cue: autoDraw = False
+19.2845 	EXP 	pic_left: autoDraw = False
+19.2845 	EXP 	pic_right: autoDraw = False
+19.2845 	EXP 	textFeedback: text = '-1'
+19.2845 	EXP 	textFeedback: autoDraw = True
+19.3539 	DATA 	Mouse:  Left button up, pos=(815,292)
+21.2693 	EXP 	New trial (rep=0, index=3): {'cue': 'images/m1.jpg', 'stim_left': 'images/squared.jpg', 'stim_right': 'images/round.jpg', 'feedback': ['pic_left'], 'correct': ['pic_left'], 'is_valid': 'valid', 'trial_all': 4}
+21.2852 	EXP 	textFeedback: autoDraw = False
+21.2852 	EXP 	textFeedback: autoDraw = False
+21.2852 	EXP 	text: autoDraw = True
+21.8013 	EXP 	text: autoDraw = False
+21.8013 	EXP 	text: autoDraw = False
+21.8013 	EXP 	pic_cue: image = 'images/m1.jpg'
+21.8013 	EXP 	pic_left: image = 'images/squared.jpg'
+21.8013 	EXP 	pic_right: image = 'images/round.jpg'
+21.8013 	EXP 	pic_cue: autoDraw = True
+21.8013 	EXP 	pic_left: autoDraw = True
+21.8013 	EXP 	pic_right: autoDraw = True
+22.5208 	DATA 	Mouse: Left button down, pos=(831,295)
+22.5514 	EXP 	pic_cue: autoDraw = False
+22.5514 	EXP 	pic_left: autoDraw = False
+22.5514 	EXP 	pic_right: autoDraw = False
+22.5514 	EXP 	textFeedback: text = '+1'
+22.5514 	EXP 	textFeedback: autoDraw = True
+22.6042 	DATA 	Mouse:  Left button up, pos=(831,295)
+24.5361 	EXP 	New trial (rep=0, index=4): {'cue': 'images/m1.jpg', 'stim_left': 'images/round.jpg', 'stim_right': 'images/squared.jpg', 'feedback': ['pic_right'], 'correct': ['pic_right'], 'is_valid': 'valid', 'trial_all': 5}
+24.5517 	EXP 	textFeedback: autoDraw = False
+24.5517 	EXP 	textFeedback: autoDraw = False
+24.5517 	EXP 	text: autoDraw = True
+25.0694 	EXP 	text: autoDraw = False
+25.0694 	EXP 	text: autoDraw = False
+25.0694 	EXP 	pic_cue: image = 'images/m1.jpg'
+25.0694 	EXP 	pic_left: image = 'images/round.jpg'
+25.0694 	EXP 	pic_right: image = 'images/squared.jpg'
+25.0694 	EXP 	pic_cue: autoDraw = True
+25.0694 	EXP 	pic_left: autoDraw = True
+25.0694 	EXP 	pic_right: autoDraw = True
+26.0194 	DATA 	Mouse: Left button down, pos=(1344,246)
+26.0354 	EXP 	pic_cue: autoDraw = False
+26.0354 	EXP 	pic_left: autoDraw = False
+26.0354 	EXP 	pic_right: autoDraw = False
+26.0354 	EXP 	textFeedback: text = '+1'
+26.0354 	EXP 	textFeedback: autoDraw = True
+26.1051 	DATA 	Mouse:  Left button up, pos=(1344,246)
+28.0201 	EXP 	New trial (rep=0, index=5): {'cue': 'images/m1.jpg', 'stim_left': 'images/round.jpg', 'stim_right': 'images/squared.jpg', 'feedback': ['pic_left'], 'correct': ['pic_right'], 'is_valid': 'invalid', 'trial_all': 6}
+28.0358 	EXP 	textFeedback: autoDraw = False
+28.0358 	EXP 	textFeedback: autoDraw = False
+28.0358 	EXP 	text: autoDraw = True
+28.5519 	EXP 	text: autoDraw = False
+28.5519 	EXP 	text: autoDraw = False
+28.5519 	EXP 	pic_cue: image = 'images/m1.jpg'
+28.5519 	EXP 	pic_left: image = 'images/round.jpg'
+28.5519 	EXP 	pic_right: image = 'images/squared.jpg'
+28.5519 	EXP 	pic_cue: autoDraw = True
+28.5519 	EXP 	pic_left: autoDraw = True
+28.5519 	EXP 	pic_right: autoDraw = True
+30.2866 	DATA 	Keypress: escape
+30.9523 	EXP 	window1: mouseVisible = True
